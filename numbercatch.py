@@ -5,7 +5,7 @@ chance = 10     # 총 입력 기회
 
 number = random.randint(1, 100)
 
-print("1부터 100까지의 숫자를 10번 안에 맞춰보세요.")
+print("1부터 100까지의 숫자를 {}번 안에 맞춰보세요.".format(chance))
 
 while count < chance:
     count += 1
