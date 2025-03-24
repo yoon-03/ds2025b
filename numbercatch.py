@@ -18,6 +18,8 @@ while count < chance:
     elif user_input > number:
         print("{} 보다 낮은 숫자 입니다.".format(user_input))
 
+    print("기회가{} 번 남았습니다.".format(count))
+
 if user_input == number:
     print("성공!! {} 이 맞습니다.".format(number))
 elif count == 10:
